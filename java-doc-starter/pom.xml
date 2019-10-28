@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-doc</artifactId>
+        <groupId>com.allen198411</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <version>1.0.0</version>
+    <artifactId>java-doc-starter</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <description>xDoc,基于Java doc注释，自动构建文档,项目地址:https://github.com/allen198411/java-doc</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.allen198411</groupId>
+            <artifactId>java-doc-spring</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.allen198411</groupId>
+            <artifactId>java-doc-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
