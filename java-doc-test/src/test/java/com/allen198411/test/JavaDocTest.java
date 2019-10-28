@@ -1,6 +1,6 @@
 package com.allen198411.test;
 
-import com.allen198411.supercore.SuperJavaDoc;
+import com.allen198411.supercore.JavaDoc;
 import com.allen198411.superspring.format.HtmlForamt;
 import com.allen198411.superspring.format.MarkdownFormat;
 import com.allen198411.superspring.framework.SpringWebFramework;
@@ -21,7 +21,7 @@ public class JavaDocTest {
         //生成离线的Markdown格式的接口文档
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         String rootDir = System.getProperty("user.dir");
-        SuperJavaDoc xDoc = new SuperJavaDoc(rootDir + "/src/main/java/com/allen198411", new SpringWebFramework());
+        JavaDoc xDoc = new JavaDoc(rootDir + "/src/main/java/com/allen198411", new SpringWebFramework());
         xDoc.build(out, new MarkdownFormat());
 
         System.out.println(out.toString());
@@ -32,7 +32,7 @@ public class JavaDocTest {
         //生成离线的HTML格式的接口文档
         String userDir = System.getProperty("user.dir");
         FileOutputStream out = new FileOutputStream(new File(userDir, "api.html"));
-        SuperJavaDoc xDoc = new SuperJavaDoc(userDir + "/src/main/java/com/allen198411", new SpringWebFramework());
+        JavaDoc xDoc = new JavaDoc(userDir + "/src/main/java/com/allen198411", new SpringWebFramework());
         xDoc.build(out, new HtmlForamt());
     }
 

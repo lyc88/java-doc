@@ -64,7 +64,7 @@ public class JavaDoc {
     }
 
     /**
-     * 构建SuperJavaDoc对象
+     * 构建JavaDoc对象
      * @param srcPaths 源码路径,支持多个
      * @param abstractFramework
      */

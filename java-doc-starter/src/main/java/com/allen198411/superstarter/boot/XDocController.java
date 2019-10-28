@@ -51,11 +51,11 @@ public class XDocController {
         LOGGER.debug("starting XDoc, source path:{}", paths);
 
         try {
-            JavaDoc superJavaDoc = new JavaDoc(paths, new SpringWebFramework());
+            JavaDoc javaDoc = new JavaDoc(paths, new SpringWebFramework());
 
             Thread thread = new Thread(() -> {
                 try {
-                    apiDoc = superJavaDoc.resolve();
+                    apiDoc = javaDoc.resolve();
                     HashMap<String, Object> properties = new HashMap<>(4);
                     properties.put("version", docProperties.getVersion());
                     properties.put("title", docProperties.getTitle());

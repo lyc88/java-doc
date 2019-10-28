@@ -36,7 +36,7 @@ public class TestApplication {
 ### 3.1 properties配置文件
 ```
 #在application.properties配置项目源码的位置,直接在项目里启动时,如果是单模块的maven项目,默认可以不配置
-#是否启动XDoc,默认是true,因为可以不填
+#是否启动JavaDoc,默认是true,因为可以不填
 doc.enable=true 
 #源码路径,多个时用英文逗号隔开，xDoc-test为项目模块名称。单模块项目可以将xDoc-test/去掉，直接使用src/main/java 
 doc.sourcePath=xDoc-test/src/main/java  
@@ -48,7 +48,7 @@ doc.version=1.0
 ### 3.2 yml配置文件
 ```yml
 doc:
-  enable: true #是否启动superJavaDoc,默认是true,因为可以不填
+  enable: true #是否启动JavaDoc,默认是true,因为可以不填
   title: 在线接口文档 #用于配置文档页面标题
   sourcePath: xDoc-test/src/main/java #源码路径,多个时用英文逗号隔开
   version: 1.0 #标识接口文档的版本号
@@ -161,7 +161,7 @@ public void buildMarkdown() {
     //生成离线的Markdown格式的接口文档
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     String rootDir = System.getProperty("user.dir");
-    SuperJavaDoc xDoc = new SuperJavaDoc(rootDir + "/src/main/java/com/uifuture", new SpringWebFramework());
+    JavaDoc xDoc = new JavaDoc(rootDir + "/src/main/java/com/uifuture", new SpringWebFramework());
     xDoc.build(out, new MarkdownFormat());
 
     System.out.println(out.toString());
@@ -175,7 +175,7 @@ public void buildHtml() throws Exception {
     //生成离线的HTML格式的接口文档
     String userDir = System.getProperty("user.dir");
     FileOutputStream out = new FileOutputStream(new File(userDir, "api.html"));
-    SuperJavaDoc xDoc = new SuperJavaDoc(userDir + "/src/main/java/com/uifuture", new SpringWebFramework());
+    JavaDoc xDoc = new JavaDoc(userDir + "/src/main/java/com/uifuture", new SpringWebFramework());
     xDoc.build(out, new HtmlForamt());
 }
 ```
