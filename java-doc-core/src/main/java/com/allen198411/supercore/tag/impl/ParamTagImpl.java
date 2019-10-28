@@ -9,8 +9,8 @@ import com.allen198411.supercore.tag.AbstractDocTag;
 /**
  * 对@Param注释的封装
  *
- * @author chenhx
- * @version ParamTagImpl.java, v 0.1 2018-09-26 下午 4:39
+ * @author allen
+ * @version ParamTagImpl.java, v 0.1 2019-10-21 下午 4:31
  */
 public class ParamTagImpl extends AbstractDocTag<String> {
 

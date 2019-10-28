@@ -9,8 +9,8 @@ import com.allen198411.supercore.tag.impl.ParamTagImpl;
 import com.allen198411.supercore.tag.impl.RespTagImpl;
 
 /**
- * @author chenhx
- * @version RespTagConverter.java, v 0.1 2018-09-26 下午 5:24
+ * @author allen
+ * @version RespTagConverter.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class RespTagConverter extends ParamTagConverter {

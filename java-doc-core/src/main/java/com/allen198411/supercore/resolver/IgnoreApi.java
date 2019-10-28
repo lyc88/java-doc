@@ -12,8 +12,8 @@ import java.lang.annotation.Target;
 /**
  * 忽略生成接口文档
  *
- * @author chenhx
- * @version IgnoreApi.java, v 0.1 2018-09-26 下午 4:46
+ * @author allen
+ * @version IgnoreApi.java, v 0.1 2019-10-21 下午 4:31
  */
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

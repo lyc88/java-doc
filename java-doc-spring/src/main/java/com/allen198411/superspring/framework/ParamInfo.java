@@ -5,8 +5,8 @@
 package com.allen198411.superspring.framework;
 
 /**
- * @author chenhx
- * @version ParamInfo.java, v 0.1 2018-09-26 下午 5:30
+ * @author allen
+ * @version ParamInfo.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class ParamInfo {

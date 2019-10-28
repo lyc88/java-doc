@@ -1,14 +1,10 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test.vo;
 
 /**
  * 用户账户
  *
- * @author chenhx
- * @version Account.java, v 0.1 2018-09-26 下午 6:24
+ * @author allen
+ * @version Account.java, v 0.1 2019-10-26 下午 6:24
  */
 
 public class Account {

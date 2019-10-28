@@ -11,8 +11,8 @@ import java.lang.reflect.Method;
 /**
  * 接口信息,一个接口类里面会有多个接口,每个接口都抽象成ApiAction
  *
- * @author chenhx
- * @version ApiAction.java, v 0.1 2018-09-26 下午 4:32
+ * @author allen
+ * @version ApiAction.java, v 0.1 2019-10-21 下午 4:32
  */
 public class ApiAction {
     /**

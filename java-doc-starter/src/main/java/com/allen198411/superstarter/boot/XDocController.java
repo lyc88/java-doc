@@ -4,7 +4,7 @@
  */
 package com.allen198411.superstarter.boot;
 
-import com.allen198411.supercore.SuperJavaDoc;
+import com.allen198411.supercore.JavaDoc;
 import com.allen198411.supercore.model.ApiDoc;
 import com.allen198411.supercore.utils.JsonUtils;
 import com.allen198411.superspring.framework.SpringWebFramework;
@@ -23,8 +23,8 @@ import java.util.List;
 import static org.slf4j.LoggerFactory.getLogger;
 
 /**
- * @author chenhx
- * @version docController.java, v 0.1 2018-09-26 下午 6:11
+ * @author allen
+ * @version XDocController.java, v 0.1 2019-10-22 下午 2:16
  */
 @RequestMapping("xdoc")
 public class XDocController {
@@ -51,7 +51,7 @@ public class XDocController {
         LOGGER.debug("starting XDoc, source path:{}", paths);
 
         try {
-            SuperJavaDoc superJavaDoc = new SuperJavaDoc(paths, new SpringWebFramework());
+            JavaDoc superJavaDoc = new JavaDoc(paths, new SpringWebFramework());
 
             Thread thread = new Thread(() -> {
                 try {
@@ -73,7 +73,7 @@ public class XDocController {
     }
 
     /**
-     * 跳转到SuperJavaDoc接口文档首页
+     * 跳转到接口文档首页
      */
     @GetMapping
     public String index() {

@@ -7,8 +7,8 @@ package com.allen198411.superstarter.boot;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author chenhx
- * @version XDocProperties.java, v 0.1 2018-09-26 下午 6:11
+ * @author allen
+ * @version XDocProperties.java, v 0.1 2019-10-22 下午 2:16
  */
 @ConfigurationProperties("xdoc")
 public class XDocProperties {
@@ -20,7 +20,7 @@ public class XDocProperties {
     /**
      * 界面标题描述
      */
-    private String title = "XDoc 接口文档";
+    private String title = "在线接口文档";
     /**
      * 源码相对路径(支持多个,用英文逗号隔开)
      */

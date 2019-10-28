@@ -1,7 +1,3 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test;
 
 import com.allen198411.supercore.SuperJavaDoc;
@@ -15,17 +11,17 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 /**
- * @author chenhx
- * @version SuperJavaDocTest.java, v 0.1 2018-09-26 下午 6:41
+ * @author allen
+ * @version JavaDocTest.java, v 0.1 2019-10-26 下午 6:41
  */
-public class SuperJavaDocTest {
+public class JavaDocTest {
 
     @Test
     public void buildMarkdown() {
         //生成离线的Markdown格式的接口文档
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         String rootDir = System.getProperty("user.dir");
-        SuperJavaDoc xDoc = new SuperJavaDoc(rootDir + "/src/main/java/com/uifuture", new SpringWebFramework());
+        SuperJavaDoc xDoc = new SuperJavaDoc(rootDir + "/src/main/java/com/allen198411", new SpringWebFramework());
         xDoc.build(out, new MarkdownFormat());
 
         System.out.println(out.toString());
@@ -36,7 +32,7 @@ public class SuperJavaDocTest {
         //生成离线的HTML格式的接口文档
         String userDir = System.getProperty("user.dir");
         FileOutputStream out = new FileOutputStream(new File(userDir, "api.html"));
-        SuperJavaDoc xDoc = new SuperJavaDoc(userDir + "/src/main/java/com/uifuture", new SpringWebFramework());
+        SuperJavaDoc xDoc = new SuperJavaDoc(userDir + "/src/main/java/com/allen198411", new SpringWebFramework());
         xDoc.build(out, new HtmlForamt());
     }
 

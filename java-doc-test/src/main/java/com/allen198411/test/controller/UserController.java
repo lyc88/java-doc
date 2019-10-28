@@ -1,7 +1,3 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test.controller;
 
 import com.allen198411.test.vo.User;
@@ -21,8 +17,8 @@ import java.util.UUID;
 /**
  * 用户模块
  *
- * @author chenhx
- * @version UserController.java, v 0.1 2018-09-26 下午 6:28
+ * @author allen
+ * @version UserController.java, v 0.1 2019-10-26 下午 6:28
  */
 @Controller
 @RequestMapping("/user")

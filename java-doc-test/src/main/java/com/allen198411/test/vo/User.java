@@ -1,12 +1,8 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test.vo;
 
 /**
- * @author chenhx
- * @version User.java, v 0.1 2018-09-26 下午 6:25
+ * @author allen
+ * @version User.java, v 0.1 2019-10-26 下午 6:25
  */
 public class User {
 

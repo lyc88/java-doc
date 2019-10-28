@@ -29,8 +29,8 @@ import java.util.List;
 /**
  * 基于spirng web框架,扩展api数据
  *
- * @author chenhx
- * @version SpringWebFramework.java, v 0.1 2018-09-26 下午 5:31
+ * @author allen
+ * @version SpringWebFramework.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class SpringWebFramework extends AbstractFramework {

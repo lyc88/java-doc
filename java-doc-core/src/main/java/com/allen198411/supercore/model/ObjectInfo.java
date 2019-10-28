@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author chenhx
- * @version ObjectInfo.java, v 0.1 2018-09-26 下午 4:40
+ * @author allen
+ * @version ObjectInfo.java, v 0.1 2019-10-21 下午 4:31
  */
 public class ObjectInfo {
 

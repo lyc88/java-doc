@@ -7,8 +7,8 @@ package com.allen198411.supercore.tag;
 /**
  * 针对注释标签
  *
- * @author chenhx
- * @version DocTag.java, v 0.1 2018-09-26 下午 4:38
+ * @author allen
+ * @version AbstractDocTag.java, v 0.1 2019-10-21 下午 4:31
  */
 public abstract class AbstractDocTag<T> {
 

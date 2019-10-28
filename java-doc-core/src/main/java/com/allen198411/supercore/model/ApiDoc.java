@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author chenhx
- * @version ApiDoc.java, v 0.1 2018-09-26 下午 4:31
+ * @author allen
+ * @version ApiDoc.java, v 0.1 2019-10-21 下午 4:31
  */
 public class ApiDoc {
 

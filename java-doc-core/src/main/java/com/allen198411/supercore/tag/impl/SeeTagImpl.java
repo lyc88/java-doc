@@ -10,8 +10,8 @@ import com.allen198411.supercore.tag.AbstractDocTag;
 /**
  * 针对@see注释标签进行封装,返回@see上注释的类信息
  *
- * @author chenhx
- * @version SeeTagImpl.java, v 0.1 2018-09-26 下午 4:40
+ * @author allen
+ * @version SeeTagImpl.java, v 0.1 2019-10-21 下午 4:31
  */
 public class SeeTagImpl extends AbstractDocTag<ObjectInfo> {
 

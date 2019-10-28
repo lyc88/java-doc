@@ -9,8 +9,8 @@ import com.allen198411.supercore.tag.AbstractDocTag;
 /**
  * 简单文本型注释标签实现
  *
- * @author chenhx
- * @version DocTagImpl.java, v 0.1 2018-09-26 下午 4:39
+ * @author allen
+ * @version DocTagImpl.java, v 0.1 2019-10-21 下午 4:31
  */
 public class DocTagImpl extends AbstractDocTag<String> {
 

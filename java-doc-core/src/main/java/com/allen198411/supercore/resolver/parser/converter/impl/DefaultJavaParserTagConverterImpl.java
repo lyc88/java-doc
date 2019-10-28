@@ -10,8 +10,8 @@ import com.allen198411.supercore.tag.impl.DocTagImpl;
 import com.allen198411.supercore.utils.CommentUtils;
 
 /**
- * @author chenhx
- * @version DefaultJavaParserTagConverterImpl.java, v 0.1 2018-09-26 下午 5:22
+ * @author allen
+ * @version DefaultJavaParserTagConverterImpl.java, v 0.1 2019-10-21 下午 4:31
  */
 public class DefaultJavaParserTagConverterImpl implements JavaParserTagConverter<String> {
 

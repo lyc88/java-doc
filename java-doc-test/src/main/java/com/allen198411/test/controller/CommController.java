@@ -1,7 +1,3 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 通用接口
  *
- * @author chenhx
- * @version CommController.java, v 0.1 2018-09-26 下午 6:28
+ * @author allen
+ * @version CommController.java, v 0.1 2019-10-26 下午 6:28
  */
 @RestController
 public class CommController {

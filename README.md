@@ -1,5 +1,5 @@
 
-# superJavaDoc 快速文档构建框架
+# JavaDoc 快速文档构建框架
 
 - **基于Java注释生成接口文档**
 - **注释支持扩展**
@@ -15,15 +15,15 @@
 <!--加入maven依赖-->
 <dependency>
     <groupId>com.allen198411</groupId>
-    <artifactId>xDoc-starter</artifactId>
+    <artifactId>java-doc-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
 
-### 2.增加EnableDoc注解
-在Application类上加上EnableDoc注解  
+### 2.增加EnableXDoc注解
+在Application类上加上EnableXDoc注解  
 ```java
-@EnableDoc //<--- 加上此注解以便启用XDOC在线HTML文档
+@EnableXDoc //<--- 加上此注解以便启用XDOC在线HTML文档
 @SpringBootApplication
 public class TestApplication {
 
@@ -63,8 +63,8 @@ doc:
 /**
  * BlogsController
  *
- * @author chenhaoxiang
- * @date 2018-09-12 18:23:40
+ * @author Allen
+ * @date 2019-10-20 18:23:40
  */
 @Controller
 @RequestMapping("admin/blogs")
@@ -144,12 +144,14 @@ public class BlogsController {
 
 ```
 
-**直接启动项目, 敲入地址: http://localhost:8080/superJavaDoc/index.html**  
+**直接启动项目, 敲入地址: http://localhost:8080/xdoc/index.html**  
 
 如下两个图，为部分展示内容。  
-![http://blogimg.chenhaoxiang.cn/18-11-26/76692396.jpg](http://blogimg.chenhaoxiang.cn/18-11-26/76692396.jpg)
+![https://raw.githubusercontent.com/allen198411/java-doc/master/doc/1.jpg](https://raw.githubusercontent.com/allen198411/java-doc/master/doc/1.jpg)
 
-![http://blogimg.chenhaoxiang.cn/18-11-26/6863840.jpg](http://blogimg.chenhaoxiang.cn/18-11-26/6863840.jpg)
+![https://raw.githubusercontent.com/allen198411/java-doc/master/doc/2.jpg](https://raw.githubusercontent.com/allen198411/java-doc/master/doc/2.jpg)
+
+![https://raw.githubusercontent.com/allen198411/java-doc/master/doc/3.jpg](https://raw.githubusercontent.com/allen198411/java-doc/master/doc/3.jpg)
 
 ### 2.生成离线文档
 **支持html:**
@@ -182,9 +184,3 @@ public void buildHtml() throws Exception {
 ```txt
 doc.enable=false
 ```
-
-
-欢迎有志之士一起开发。提Issues。  
-
-
-参考项目：https://gitee.com/treeleaf/xDoc  

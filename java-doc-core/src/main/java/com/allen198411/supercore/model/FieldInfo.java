@@ -7,8 +7,8 @@ package com.allen198411.supercore.model;
 import java.util.List;
 
 /**
- * @author chenhx
- * @version FieldInfo.java, v 0.1 2018-09-26 下午 4:37
+ * @author allen
+ * @version FieldInfo.java, v 0.1 2019-10-21 下午 4:31
  */
 public class FieldInfo {
 

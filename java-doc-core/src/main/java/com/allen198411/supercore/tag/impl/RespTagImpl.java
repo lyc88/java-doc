@@ -11,8 +11,8 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 针对@Resp注释的内容封装
  *
- * @author chenhx
- * @version RespTagImpl.java, v 0.1 2018-09-26 下午 4:40
+ * @author allen
+ * @version RespTagImpl.java, v 0.1 2019-10-21 下午 4:31
  */
 public class RespTagImpl extends AbstractDocTag<String> {
 

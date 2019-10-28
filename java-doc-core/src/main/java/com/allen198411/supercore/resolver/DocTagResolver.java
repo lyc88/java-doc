@@ -14,8 +14,8 @@ import java.util.List;
  * <p>
  * 现有的实现有基于sun javadoc, 也有基于开源的javaparser
  *
- * @author chenhx
- * @version DocTagResolver.java, v 0.1 2018-09-26 下午 4:45
+ * @author allen
+ * @version DocTagResolver.java, v 0.1 2019-10-21 下午 4:31
  */
 public interface DocTagResolver {
 

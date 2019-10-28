@@ -12,8 +12,8 @@ import java.util.List;
 /**
  * 接口业务模块,一个接口类为一个模块
  *
- * @author chenhx
- * @version ApiModule.java, v 0.1 2018-09-26 下午 4:32
+ * @author allen
+ * @version ApiModule.java, v 0.1 2019-10-21 下午 4:31
  */
 public class ApiModule {
     /**

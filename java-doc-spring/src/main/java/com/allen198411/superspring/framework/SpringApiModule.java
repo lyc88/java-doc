@@ -9,8 +9,8 @@ import com.allen198411.supercore.model.ApiModule;
 import java.util.List;
 
 /**
- * @author chenhx
- * @version SpringApiModule.java, v 0.1 2018-09-26 下午 5:31
+ * @author allen
+ * @version SpringApiModule.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class SpringApiModule extends ApiModule {

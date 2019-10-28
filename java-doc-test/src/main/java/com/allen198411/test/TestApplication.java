@@ -1,20 +1,16 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test;
 
-import com.allen198411.superstarter.boot.EnableDoc;
+import com.allen198411.superstarter.boot.EnableXDoc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 测试启动类
  *
- * @author chenhx
- * @version TestApplication.java, v 0.1 2018-09-26 下午 6:27
+ * @author allen
+ * @version TestApplication.java, v 0.1 2019-10-26 下午 6:27
  */
-@EnableDoc
+@EnableXDoc
 @SpringBootApplication
 public class TestApplication {
     public static void main(String[] args) {

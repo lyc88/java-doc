@@ -16,8 +16,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author chenhx
- * @version HtmlForamt.java, v 0.1 2018-09-26 下午 5:32
+ * @author allen
+ * @version HtmlForamt.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class HtmlForamt implements Format {

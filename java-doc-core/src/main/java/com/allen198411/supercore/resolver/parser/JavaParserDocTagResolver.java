@@ -35,8 +35,8 @@ import java.util.List;
 /**
  * 基于开源JavaParser实现的解析
  *
- * @author chenhx
- * @version JavaParserDocTagResolver.java, v 0.1 2018-09-26 下午 4:58
+ * @author allen
+ * @version JavaParserDocTagResolver.java, v 0.1 2019-10-21 下午 4:31
  */
 
 public class JavaParserDocTagResolver implements DocTagResolver {

@@ -26,10 +26,10 @@ import java.util.Map;
 /**
  * 主入口,核心处理从这里开始
  *
- * @author chenhx
- * @version SuperMain.java, v 0.1 2018-09-26 下午 5:27
+ * @author allen
+ * @version JavaDoc.java, v 0.1 2019-10-21 下午 4:31
  */
-public class SuperJavaDoc {
+public class JavaDoc {
 
     private static final String CHARSET = "utf-8";
 
@@ -59,7 +59,7 @@ public class SuperJavaDoc {
      * @param srcPath 源码路径
      * @param abstractFramework
      */
-    public SuperJavaDoc(String srcPath, AbstractFramework abstractFramework) {
+    public JavaDoc(String srcPath, AbstractFramework abstractFramework) {
         this(Arrays.asList(srcPath), abstractFramework);
     }
 
@@ -68,7 +68,7 @@ public class SuperJavaDoc {
      * @param srcPaths 源码路径,支持多个
      * @param abstractFramework
      */
-    public SuperJavaDoc(List<String> srcPaths, AbstractFramework abstractFramework) {
+    public JavaDoc(List<String> srcPaths, AbstractFramework abstractFramework) {
         this.srcPaths = srcPaths;
         this.abstractFramework = abstractFramework;
     }

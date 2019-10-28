@@ -1,7 +1,3 @@
-/**
- *
- * Copyright (C) 2013-2018 All Rights Reserved.
- */
 package com.allen198411.test.controller;
 
 import com.allen198411.test.vo.Account;
@@ -29,8 +25,8 @@ import java.util.concurrent.Callable;
 /**
  * 用户账户模块
  *
- * @author chenhx
- * @version AccountController.java, v 0.1 2018-09-26 下午 6:24
+ * @author allen
+ * @version AccountController.java, v 0.1 2019-10-26 下午 6:24
  */
 @Controller
 @RequestMapping("api/account")

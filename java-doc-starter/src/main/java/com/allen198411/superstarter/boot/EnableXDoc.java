@@ -15,8 +15,8 @@ import java.lang.annotation.Target;
 /**
  * 开启注解
  *
- * @author chenhx
- * @version EnableXDoc.java, v 0.1 2018-09-26 下午 6:10
+ * @author allen
+ * @version EnableXDoc.java, v 0.1 2019-10-22 下午 2:16
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

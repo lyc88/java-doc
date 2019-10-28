@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 
 /**
- * @author chenhx
- * @version XDocConfiguration.java, v 0.1 2018-09-26 下午 6:10
+ * @author allen
+ * @version XDocConfiguration.java, v 0.1 2019-10-22 下午 2:16
  */
 public class XDocConfiguration {
 
